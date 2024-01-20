@@ -125,7 +125,7 @@ h2 {
   padding-bottom: 0.8em;
   margin-left: 0.7em;
   margin-right: 0.7em;
-  margin-bottom: 0.8em;
+  margin-bottom: 3em;
 }
 
 .kunstwakers-video iframe {
@@ -136,4 +136,21 @@ h2 {
   padding: 0em;
   margin-top: 0.6em;
   margin-bottom: 0em;
+}
+
+footer {
+  font-family: "navfont", sans-serif;
+  font-size: 0.8em;
+  background: #c12600;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 0em;
+}
+
+.copyright-tekst {
+  margin-bottom: 0.8em;
 }
