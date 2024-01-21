@@ -96,6 +96,16 @@ h2 {
   text-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.5);
 }
 
+.lees-meer-2 {
+  font-family: "headerfont", sans-serif;
+  color: white;
+  text-decoration: underline white 0.1em;
+  padding-right: 1em;
+  display: flex;
+  padding-top: 0.7em;
+  text-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.5);
+}
+
 .kunstwaker-1 {
   margin-left: 0.8em;
   padding: 1em;
