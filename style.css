@@ -12,12 +12,6 @@
   font-family: "bodyfont";
   src: url(fonts/stamped.TTF);
 }
-/* sticky footer
-/* 
-* {
-  box-sizing: border-box;
-  margin: 0;
-} */
 
 body {
   margin: 0;
@@ -78,6 +72,14 @@ h2 {
   font-size: 1.2em;
 }
 
+h3 {
+  font-family: "headerfont", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0.3em;
+}
+
 .uitleg-kunstwakers {
   background-color: #c12600;
   padding-left: 0.8em;
@@ -109,7 +111,7 @@ h2 {
 .kunstwaker-1 {
   margin-left: 0.8em;
   padding: 1em;
-  width: 50vw;
+  width: 40vw;
 }
 
 .kunstwaker-2 {
@@ -163,4 +165,51 @@ footer h2 {
 
 .copyright-tekst {
   margin-bottom: 0.8em;
+}
+
+.grote-header {
+  font-size: 2.6em;
+  margin-top: 0.2em;
+  margin-left: 0.4em;
+  padding-top: 0.1em;
+}
+
+.tekst-groot {
+  max-width: 100vw;
+  font-size: 1.1em;
+  margin-left: 1em;
+}
+
+.intro-soorten {
+  background-color: #c12600;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  padding-bottom: 1em;
+}
+
+.kunstwaker-soort {
+  width: 35vw;
+  height: 30vh;
+}
+
+.kunstwakers-rijen {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.kunstwaker-grootte {
+  text-align: center;
+  padding-top: 0;
+}
+
+.kunstwaker-artikel {
+  background-color: #3866bf;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 1.9em;
+}
+
+.footer-soorten {
+  margin-top: 2em;
 }
