@@ -104,6 +104,16 @@ h3 {
   text-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.5);
 }
 
+.lees-meer-3 {
+  font-family: "headerfont", sans-serif;
+  display: flex;
+  color: white;
+  text-decoration: underline white 0.1em;
+  font-size: 1.1em;
+  padding-top: 0.2em;
+  text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
 .kunstwaker-1 {
   margin-left: 0.8em;
   padding: 1em;
