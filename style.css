@@ -115,6 +115,15 @@ h3 {
   width: 30vw;
 }
 
+.kunstwaker-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  margin-top: 1.5em;
+  margin-bottom: 1.3em;
+}
+
 .bijdrage-initiatief {
   background-color: #3866bf;
   width: 75vw;
@@ -147,6 +156,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 2.8em;
 }
 
 footer h2 {
@@ -205,10 +215,6 @@ footer h2 {
   margin-top: 1.9em;
 }
 
-.footer-soorten {
-  margin-top: 2em;
-}
-
 .verhaal-banner {
   width: 80vw;
   display: block;
@@ -217,7 +223,8 @@ footer h2 {
   padding: 1.5em;
 }
 
-.ontstaan {
+.ontstaan,
+.kunstwaker-code {
   background-color: #3866bf;
   padding: 1em;
   margin: 1em;
