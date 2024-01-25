@@ -110,7 +110,7 @@ h3 {
   margin-bottom: 0.5em;
   position: relative;
   z-index: 1;
-  transform: rotate(0.7deg);
+  transform: rotate(1deg);
 }
 
 .code-kunstwakers {
@@ -169,12 +169,25 @@ h3 {
 }
 
 .kunstwaker-3 {
+  margin-top: -2em;
+  padding: 1em;
+  width: 40vw;
+  transform: rotate(5deg);
+  display: flex;
+  justify-content: center;
+  margin: -2em auto auto auto;
+}
+
+.kunstwaker-4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40vw;
-  margin-top: 1.5em;
+  height: 30vh;
+  margin-top: -1.7em;
+  margin-left: 0.5em;
   margin-bottom: 1.3em;
+  transform: rotate(-2deg);
 }
 
 .kunstwerk {
@@ -260,6 +273,7 @@ footer h2 {
   background-color: #c12600;
   margin: 0em 0.8em 0em 0.8em;
   padding-bottom: 1em;
+  transform: rotate(1deg);
 }
 
 .kunstwaker-soort {
@@ -283,6 +297,7 @@ footer h2 {
   background-color: #3866bf;
   padding: 0em 1em 0em;
   margin-top: 1.9em;
+  transform: rotate(-2deg);
 }
 
 .verhaal-banner {
@@ -302,13 +317,6 @@ footer h2 {
   margin: 1em;
 }
 
-.headers-verhaal {
-  font-size: 1.6em;
-  margin-top: -0.2em;
-  margin-bottom: 0.4em;
-  padding: 0em;
-}
-
 .tekst-verhaal {
   font-size: 0.9em;
   max-width: 100vw;
@@ -318,6 +326,27 @@ footer h2 {
   font-size: 0.75em;
 }
 
-.code-invoeren {
+.kunstwaker-schilderij {
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.schilderij {
+  width: 50vw;
+  position: relative;
+  z-index: 1;
+  margin-top: 2em;
+  margin-left: -0.7em;
+  transform: rotate(1deg);
+}
+
+.bronverwijzing {
   color: white;
+}
+
+.broncaption {
+  background-color: #c12600;
+  padding: 0em 0.5em 0.1em 0.3em;
+  transform: rotate(-2deg);
+  margin-top: -1.15em;
 }
